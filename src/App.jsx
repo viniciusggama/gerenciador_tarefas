@@ -23,7 +23,7 @@ function App() {
     },
     {
       id: 5,
-      text :"Estudar react ate  infinito",
+      text :"Estudar react ate o infinito",
       category: "Estudos",
       isCompleted: false,
     },
@@ -41,7 +41,7 @@ function App() {
             </div>
             <div>
               <button>COMPLETAR</button>
-              <button>X</button>
+              <button>DEL</button>
             </div>
           </div>
         ))}
