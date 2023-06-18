@@ -3,4 +3,9 @@ body{
   background-color: #f4f4f4;
   padding:30px;
   color: #333;
+  background-image: url("img/background3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
 }
