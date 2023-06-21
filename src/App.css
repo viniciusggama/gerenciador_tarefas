@@ -2,10 +2,34 @@ body{
   font-family: arial;
   background-color: #f4f4f4;
   padding:30px;
-  color: #333;
+  color: #030257;
   background-image: url("img/background3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;
+}
+
+.app{
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+input{
+  box-sizing: border-box;
 }
