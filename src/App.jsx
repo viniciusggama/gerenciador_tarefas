@@ -1,5 +1,7 @@
-import { useState } from 'react'
-import "./App.css"
+import { useState } from 'react';
+import Todo from './components/Todo';
+import "./App.css";
+import TodoForm from './components/TodoForm';
 
 
 function App() {
@@ -28,25 +30,17 @@ function App() {
       category: "Estudos",
       isCompleted: false,
     },
-  ])
+  ]);
 
   return (
   <div className='app' > 
       <h1>Tarefas da Semana</h1>
       <div className='todo-list'>
         {todos.map((todo) => (
-          <div className='todo'>
-            <div className='content'>
-              <p>{todo.text}</p>
-              <p className='category'>({todo.category})</p>
-            </div>
-            <div>
-              <button>COMPLETAR</button>
-              <button>DEL</button>
-            </div>
-          </div>
+         <Todo todo={todo}/>
         ))}
       </div>
+      <TodoForm />
   </div>
   )
 }
