@@ -8,25 +8,25 @@ function App() {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      text :"Desenvolver aplicação REACT",
+      text :"ATIVIDADE PLANEJADA 1",
       category: "Trabalho",
       isCompleted: false,
     },
     {
       id: 2,
-      text :"Surfar",
+      text :"ATIVIDADE PLANEJADA 2",
       category: "Pessoal",
       isCompleted: false,
     },
     {
       id: 4,
-      text :"Treinar",
+      text :"ATIVIDADE PLANEJADA 3",
       category: "pessoal",
       isCompleted: false,
     },
     {
       id: 5,
-      text :"Estudar react ate o infinito",
+      text :"ATIVIDADE PLANEJADA 4",
       category: "Estudos",
       isCompleted: false,
     },
@@ -34,7 +34,7 @@ function App() {
 
   return (
   <div className='app' > 
-      <h1>Tarefas da Semana</h1>
+      <h1>GERENCIADOR DE TAREFAS</h1>
       <div className='todo-list'>
         {todos.map((todo) => (
          <Todo todo={todo}/>
